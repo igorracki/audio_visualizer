@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Audio Visualizer</title>
+        <style>
+            body {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+                background-color: black;
+            }
+            canvas {
+                display: block;
+                margin: 10px 0;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="file" id="audiofile">
+        <canvas id="waveform"></canvas>
+        <canvas id="fft"></canvas>
+        <script src="script.js"></script>
+    </body>
+</html>
