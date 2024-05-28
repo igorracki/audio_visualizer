@@ -1,0 +1,31 @@
+{
+  "name": "audio_visualizer",
+  "version": "1.0.0",
+  "description": "Visualizes the waveform and FFT in real-time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorracki/audio_visualizer.git"
+  },
+  "keywords": [
+    "audio",
+    "fft",
+    "wave",
+    "waveform",
+    "DSP",
+    "signal",
+    "processing"
+  ],
+  "author": "Igor Racki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorracki/audio_visualizer/issues"
+  },
+  "homepage": "https://github.com/igorracki/audio_visualizer#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
