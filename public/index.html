@@ -19,10 +19,17 @@
                 margin: 10px 0;
                 background-color: black;
             }
+            #controls {
+                position: absolute;
+                top: 10px;
+            }
         </style>
     </head>
     <body>
-        <input type="file" id="audiofile">
+        <div id="controls">
+            <input type="file" id="audiofile">
+            <button id="stopButton" disabled>Stop</button>
+        </div>
         <canvas id="waveform"></canvas>
         <canvas id="fft"></canvas>
         <script src="script.js"></script>
